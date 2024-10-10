@@ -1,3 +1,44 @@
+body {
+  background-color: rgb(252, 246, 239);
+}
 h1 {
   color: blueviolet;
+  font-size: 50px;
+  line-height: 2;
+  text-align: center;
+}
+a {
+  font-size: 25px;
+  color: rgb(23, 23, 44);
+}
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+}
+form {
+  padding: 30px;
+  background-color: aliceblue;
+  display: flex;
+}
+.input {
+  padding: 20px;
+  border: 1px solid blueviolet;
+  width: 70%;
+  font-size: 20px;
+  border-radius: 30px;
+  color: blueviolet;
+}
+.submit {
+  padding: 20px;
+  border: 1px solid blueviolet;
+  margin-left: 10px;
+  width: 15%;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+footer {
+  text-align: center;
 }
