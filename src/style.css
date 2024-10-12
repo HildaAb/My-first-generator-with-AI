@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(252, 246, 239);
+  background-color: rgb(222, 239, 203);
 }
 h1 {
   color: blueviolet;
@@ -8,16 +8,16 @@ h1 {
   text-align: center;
 }
 a {
-  font-size: 25px;
+  font-size: 18px;
   color: rgb(23, 23, 44);
 }
 .container {
-  max-width: 600px;
-  margin: 100px auto;
+  max-width: 900px;
+  margin: 50px auto;
 }
 form {
   padding: 30px;
-  background-color: aliceblue;
+  background-color: whitesmoke;
   display: flex;
 }
 .input {
@@ -38,6 +38,12 @@ form {
   border-radius: 30px;
   background-color: blueviolet;
   color: aliceblue;
+}
+.recepy {
+  font-size: 25px;
+  background-color: whitesmoke;
+  padding: 20px;
+  line-height: 20px;
 }
 footer {
   text-align: center;
