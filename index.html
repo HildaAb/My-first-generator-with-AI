@@ -4,27 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Recepies with AI</title>
+    <title>Food around th world with AI</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>Recepies with AI</h1>
+        <h1>Food around the world with AI</h1>
       </header>
       <main>
         <form id="user-input">
           <input
             type="text"
-            placeholder="Enter your question"
+            placeholder="Enter a country name"
             autofokus
             required
             autocomplete="off"
             class="input"
+            id="new-input"
           />
           <input type="submit" class="submit" />
         </form>
-        <div class="recepy" id="recepy">Budapest</div>
+        <div class="recepy" id="recepy"></div>
       </main>
 
       <footer>
