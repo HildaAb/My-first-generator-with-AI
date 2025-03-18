@@ -1,8 +1,8 @@
 body {
-  background-color: rgb(222, 239, 203);
+  background-color: rgb(242, 242, 250);
 }
 h1 {
-  color: rgb(14, 5, 65);
+  color: rgb(88, 128, 143);
   font-size: 50px;
   line-height: 2;
   text-align: center;
@@ -17,36 +17,36 @@ a {
 }
 form {
   padding: 30px;
-  background-color: whitesmoke;
+  background-color: rgb(103, 87, 146);
   display: flex;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 .input {
   padding: 20px;
-  border: 1px solid rgb(37, 17, 137);
+  border: 1px solid rgb(103, 87, 146);
   width: 70%;
   font-size: 20px;
   border-radius: 30px;
-  color: rgb(37, 17, 137);
 }
 .submit {
   padding: 20px;
-
-  border: 1px solid rgb(51, 6, 90);
+  border: 1px solid rgb(137, 129, 179);
   margin-left: 10px;
   width: 25%;
   font-size: 20px;
   font-weight: bold;
   border-radius: 30px;
-  background-color: rgb(37, 17, 137);
+  background-color: rgb(137, 129, 179);
   color: aliceblue;
 }
 .recipe {
   font-size: 25px;
-  background-color: whitesmoke;
+  background-color: rgb(243, 246, 247);
   padding: 40px;
-  border-left: 8px solid rgb(37, 17, 137);
-  line-height: 20px;
+  border-left: 8px solid rgb(88, 128, 143);
+  line-height: 1.5;
   margin-top: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 .hidden {
   display: none;
